@@ -33,6 +33,21 @@ public class CommandLineParser {
 
             }
         }
+
+        if(stats && fullStats)
+            stats = false;
+
+
+        if(inputFiles.isEmpty())
+            throw new IllegalArgumentException("Нет входных файлов!");
+
     }
+
+    public List<String> getInputFiles(){ return inputFiles; }
+    public String getOutputPath(){ return  outputPath; }
+    public String getPrefix() { return  prefix; }
+    public  boolean isAppendMode() { return appendMode; }
+    public  boolean isStats() { return  stats; }
+    public  boolean isFullStats() { return  fullStats; }
 
 }
