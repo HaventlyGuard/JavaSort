@@ -1,0 +1,6 @@
+filterapp\cli\DataValidator.class
+filterapp\cli\Main.class
+filterapp\cli\Statistics.class
+filterapp\cli\FileProcessor.class
+filterapp\cli\CommandLineParser.class
+filterapp\cli\DataWriter.class
